@@ -66,7 +66,7 @@ cd messaging-app
 
 ```bash
 cd server
-npm install express sqlite3 ws cors body-parser
+npm install express sqlite3 ws cors body-parser bcrypt jsonwebtoken helmet express-rate-limit npm install dotenv morgan uuid
 ```
 
 ### Front-end
@@ -74,7 +74,7 @@ npm install express sqlite3 ws cors body-parser
 ```bash
 cd ../client
 npm install
-npm install lucide-react
+npm install lucide-react jwt-decode
 ```
 
 ---
